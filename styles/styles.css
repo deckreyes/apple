@@ -230,6 +230,7 @@ main img {
 
 main .section {
   padding: 64px 16px;
+  background-color: rgb(245, 245, 247);
 }
 
 @media (min-width: 600px) {
@@ -248,4 +249,22 @@ main .section {
 /* section metadata */
 main .section.highlight {
   background-color: var(--highlight-background-color);
+}
+
+main .location-block-wrapper {
+  height: 5px;
+  padding-top: 0px;
+}
+
+main .subnav-container {
+  height: 5px;
+  padding-top: 10px;
+  background-color: #fbfbfd;
+
+}
+
+main .newsroomsection-container {
+  height: 100px;
+  padding-top: 10px;
+  background-color: #fbfbfd;
 }
